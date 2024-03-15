@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cronometro {
+    background-color: #eee;
+    border: 25px solid #000000;
+    text-align: center;
+    border-radius: 800px;
+    padding: 10px;
+    width: 420px;
+    height: 420px;
+    align-items: center;
+    margin-left: 710px;
+    margin-top: 200px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.jota {
+    margin-top: 95px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#tempo {
+    font-size: 50px;
+}
+
+button {
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eee;
+}
+
+button:hover {
+    cursor: pointer;
+    color: red;
+}
+
+button:active {
+    color: rgb(199, 40, 40)
+}
+
+button:focus {
+    color: red;
+}
