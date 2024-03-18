@@ -39,13 +39,19 @@ button {
 
 button:hover {
     cursor: pointer;
-    color: red;
+    color: rgb(255, 0, 0);
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
-button:active {
-    color: rgb(199, 40, 40)
+button:disabled {
+    color: red;
 }
 
 button:focus {
     color: red;
+}
+
+button:active {
+    color: rgb(255, 255, 255);
 }
