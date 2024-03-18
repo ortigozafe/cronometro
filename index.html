@@ -13,7 +13,7 @@
         <div class="jota">
             <h1>Cronômetro</h1>
                 <div id="tempo">00:00:00</div> <br>
-                    <button onclick="start()"><i class="fa-solid fa-play"></i></button>
+                    <button class="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
                     <button onclick="stop()"><i class="fa-solid fa-pause"></i></button>
                     <button onclick="reset()"><i class="fa-solid fa-rotate"></i></button>
                  </div>
@@ -27,6 +27,7 @@
         var id;
 
         function start() {
+            document.querySelector('.start').disabled = true
             id = setInterval(function() {
                 seg++;
 
@@ -54,6 +55,7 @@
 
         function stop() {
             clearInterval(id);
+            document.querySelector('.start').disabled = false
         }
 
         function reset() {
